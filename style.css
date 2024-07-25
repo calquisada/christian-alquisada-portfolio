@@ -119,12 +119,27 @@ nav {
 }
 
 #linkedin {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 #github {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
+#paragraph1 {
+  font-size: 20px;
+}
+
+#summary {
+  font-size: 23px;
+}
+
+#paragraph2 {
+  font-size: 18px;
+}
+
+#connectheader {
+  font-size: 27px;
+}
