@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Christian Alquisada - Résumé</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+  <header>
+    <h1 id="resume-title">Christian Alquisada</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cover-letter.html">Cover Letter</a>
+      <a href="career-goals.html">Career Goals</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact-info">
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:christian.alquisada@example.com">calqui1@wgu.edu</a></p>
+      <p>Phone: <span>(123) 456-7890</span></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/christian-alquisada" target="_blank">linkedin.com/in/christian-alquisada</a></p>
+      <hr> </section>
+
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>Highly motivated and detail-oriented student with experience in developing CRM automations, providing IT support, and maintaining data integrity. <br> Proven ability to streamline operations and enhance system efficiency. Passionate about leveraging technology to solve complex problems and contribute to innovative projects.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <table caption="Key Technical Skills">
+        <caption id="keytechskill">Key Technical Skills</caption>
+        <thead id="resumehead">
+          <tr>
+            <th>Category</th>
+            <th>Languages</th>
+            <th>Frameworks/Libraries</th>
+            <th>Tools</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Frontend</strong></td>
+            <td>HTML, CSS, JavaScript</td>
+            <td><em>React, Sass</em></td>
+            <td>VS Code, Git</td>
+          </tr>
+          <tr>
+            <td><strong>Backend</strong></td>
+            <td>Python, C#, Java, SQL</td>
+            <td>Node.js (basic)</td>
+            <td>Docker, MySQL</td>
+          </tr>
+          <tr>
+            <td><strong>Other</strong></td>
+            <td>TypeScript</td>
+            <td>GoHighLevel CRM</td>
+            <td>Jira, Microsoft Office</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="professional-experience">
+      <h2>Professional Experience</h2>
+
+      <article>
+        <h3>Talon Wellness</h3>
+        <p><strong>System Software Engineer / IT Support Specialist</strong></p>
+        <p><em>Henderson, NV | March 2025 – June 2025</em></p>
+        <ul>
+          <li>Developed and implemented CRM automations using HTML, CSS, and JavaScript in GoHighLevel.</li>
+          <li>Designed custom workflow triggers to automate lead generation, follow-ups, and client onboarding.</li>
+          <li>Provided IT support and trained staff in CRM tools, streamlining internal operations.</li>
+          <li>Diagnosed system issues and coordinated technical troubleshooting with vendors.</li>
+          <li>Maintained HIPAA-compliant data handling processes.</li>
+        </ul>
+      </article>
+
+      <hr> <article>
+        <h3>Las Vegas Pain Institute and Medical Center</h3>
+        <p><strong>Health Information / IT Specialist</strong></p>
+        <p><em>Las Vegas, NV | August 2021 – March 2025</em></p>
+        <ul>
+          <li>Maintained electronic health records (EHR) and ensured data integrity and compliance.</li>
+          <li>Delivered IT support for over 20 staff members, resolving software and hardware issues.</li>
+          <li>Assisted in onboarding and training of staff on EHR usage and security protocols.</li>
+          <li>Created audit logs and reports for compliance and internal documentation.</li>
+          <li>Supported front-desk and clinical operations, strengthening end-user empathy.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <article>
+        <h3>Western Governors University</h3>
+        <p><strong>Bachelor of Science in Software Engineering</strong></p>
+        <p><em>Las Vegas, NV | December 2024 – Present</em></p>
+        <p><strong>Relevant Courses:</strong> Programming Fundamentals, Software Design and Architecture, Data Structures and Algorithms, Operating Systems, Web Development, Artificial Intelligence, C#, Java</p>
+      </article>
+
+      <hr> <article>
+        <h3>University of Nevada, Las Vegas (via ThriveDX)</h3>
+        <p><strong>Software Development Professional Certificate</strong></p>
+        <p><em>Las Vegas, NV | May 2023 – April 2024</em></p>
+        <p><strong>Relevant Courses:</strong> HTML, CSS, JavaScript, React, Python, SQL, Cybersecurity (JWT & Sessions), TypeScript, Sass</p>
+      </article>
+
+      <hr> <article>
+        <h3>College of Southern Nevada</h3>
+        <p><strong>Associate of Applied Science in Health Information Technology</strong></p>
+        <p><em>Las Vegas, NV | August 2018 – May 2022</em></p>
+        <p><strong>Relevant Courses:</strong> Health Information Management, Health Information Technology</p>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Created by Christian Alquisada - 2024</p>
+    <div id="current-date"></div> </footer>
+
+  <script>
+    // JavaScript to populate the date
+    const dateDiv = document.getElementById('current-date');
+    const today = new Date();
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    dateDiv.textContent = `Last Updated: ${today.toLocaleDateString('en-US', options)}`;
+
+    // JavaScript to write an appropriate message to the console
+    console.log("Welcome to Christian Alquisada's Résumé page!");
+    console.log("For more information, please visit my LinkedIn profile.");
+  </script>
+
+</body>
+</html>
