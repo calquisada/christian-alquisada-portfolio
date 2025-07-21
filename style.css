@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
+/* Universal selector to normalize spacing across all elements */
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: "Courier Prime", monospace;
   margin: 0px;
@@ -218,3 +224,10 @@ nav a {
 .emphasize {
   font-style: italic;
 }
+
+ul {
+  list-style-type: square;  /* You can use circle, disc, etc. */
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
